@@ -1,0 +1,16 @@
+.client-causes {
+  color: #fff;
+  padding: 5px 30px;
+  opacity: 1;
+  animation: ClientCausesOpacity 400ms cubic-bezier(.29,.2,.01,.98) 100ms backwards;
+}
+
+@keyframes ClientCausesOpacity {
+  from { opacity: 0 }
+  to { opacity: 1 }
+}
+
+.client-causes ol {
+  padding-inline: 0;
+  padding-ouline: 10px;
+}
